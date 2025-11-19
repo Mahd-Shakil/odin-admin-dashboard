@@ -16,6 +16,19 @@
   grid-template-rows: 15% 90%;
 }
 
+.sidebar-container {
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.side-icon-list {
+  grid-column-start: 1;
+}
+
+.sidebar-list {
+  grid-column-start: 2;
+}
+
 .header-container {
   border: 2px solid green;
   grid-row-start: 1;
