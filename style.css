@@ -1,4 +1,6 @@
 .main-container {
+  height: 700px;
+  width: 1485px;
   border: 2px solid black;
   display: grid;
   grid-template-columns: 20% 80%;
@@ -84,8 +86,27 @@ button {
   padding: 20px;
   border-radius: 8px;
   text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
 }
 
 .content-sidebar {
   grid-column-start: 2;
+}
+
+.announcements-container {
+  background-color: white;
+  height: 250px;
+  width: 225px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+
+.trending-container {
+  background-color: white;
+  height: 250px;
+  width: 225px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
 }
