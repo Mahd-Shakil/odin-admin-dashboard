@@ -1,5 +1,6 @@
 * {
-  font-family: "Roboto", sans-serif
+  font-family: "Geist Mono", monospace, sans-serif;
+  color: rgb(35 36 37);
 }
 
 p {
@@ -14,8 +15,7 @@ p {
 }
 
 .left-side {
-  background-color: rgb(26 146 211);
-  color: white;
+  background-color: rgb(210 228 227);
   grid-column-start: 1;
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 .svg-icon {
-  fill: white;
+  fill: rgb(35 36 37);
 }
 
 .sidebar-list {
@@ -61,7 +61,7 @@ p {
 }
 
 .search-area {
-  margin-left: 35px;
+  margin-left: 50px;
   display: flex;
 }
 
@@ -72,21 +72,54 @@ p {
 }
 
 #search-bar {
-  width: 500px;
+  width: 550px;
   height: 30px;
   background-color: rgb(226 232 240);
   border-radius: 20px;
   border: none;
 }
 
+.header-1-user {
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+  gap: 30px;
+}
+
+#bell-icon {
+  height: 25px;
+}
+
+#pfp {
+  height: 50px;
+  fill: rgb(173 89 0);
+}
+
+#pfp-large {
+  height: 65px;
+  margin-right: 40px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  fill: rgb(173 89 0);
+}
+
+#hi-there {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+#welcome-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .button-container {
-  margin-left: 500px;
+  margin-left: 435px;
 }
 
 button {
-  background-color: rgb(26 146 211);
+  background-color: rgb(210 228 227);
   border: none;
-  color: white;
   width: 100px;
   height: 35px;
   margin-right: 20px;
@@ -95,7 +128,7 @@ button {
 }
 
 .content-container {
-  background-color: rgb(226 232 240);
+  background-color: rgb(242 238 230);
   grid-row-start: 2;
   display: grid;
   grid-template-columns: 80% 20%;
@@ -119,8 +152,8 @@ button {
 .project-card {
   width: 320px;
   height: 130px;
-  background-color: white;
-  border-left: 5px solid rgb(240 180 42);
+  background-color: rgb(249 248 244);
+  border-left: 5px solid rgb(254 182 0);
   padding: 20px;
   border-radius: 5px;
   text-align: center;
@@ -132,7 +165,7 @@ button {
 }
 
 .announcements-container {
-  background-color: white;
+  background-color: rgb(249 248 244);
   height: 250px;
   width: 225px;
   border-radius: 10px;
@@ -141,7 +174,7 @@ button {
 
 
 .trending-container {
-  background-color: white;
+  background-color: rgb(249 248 244);
   height: 250px;
   width: 225px;
   border-radius: 10px;
