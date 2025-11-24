@@ -25,20 +25,30 @@ p {
   grid-template-rows: 15% 90%;
 }
 
-.sidebar-container {
-  display: flex;
-}
-
-.side-icon-list {
-  display: flex;
-  flex-direction: column;
-}
-
 .svg-icon {
   fill: rgb(35 36 37);
-  height: 35px;
+  height: 20px;
 }
 
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.sidebar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#dashboard {
+  font-size: 30px;
+}
+
+#dashboard-icon {
+  height: 35px;
+}
 
 .header-container {
   grid-row-start: 1;
