@@ -26,21 +26,19 @@ p {
 }
 
 .sidebar-container {
-  display: grid;
-  grid-template-columns: 10% 90%;
+  display: flex;
 }
 
 .side-icon-list {
-  grid-column-start: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .svg-icon {
   fill: rgb(35 36 37);
+  height: 35px;
 }
 
-.sidebar-list {
-  grid-column-start: 2;
-}
 
 .header-container {
   grid-row-start: 1;
