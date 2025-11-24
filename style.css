@@ -3,7 +3,7 @@
   color: rgb(35 36 37);
 }
 
-p, label {
+p, label, span {
   font-weight: bold;
 }
 
@@ -11,7 +11,7 @@ p, label {
   height: 790px;
   width: 100%;
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 17% 83%;
 }
 
 .left-side {
@@ -139,12 +139,11 @@ button {
   background-color: rgb(242 238 230);
   grid-row-start: 2;
   display: grid;
-  grid-template-columns: 80% 20%;
-  padding: 20px;
+  grid-template-columns: 78% 22%;
+  padding: 0px 20px 20px;
 }
 
 .content-projects {
-  margin-left: 25px;
   justify-content: center;
   grid-column-start: 1;
   display: flex;
@@ -190,18 +189,59 @@ button {
 }
 
 .announcements-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: rgb(249 248 244);
-  height: 250px;
+  height: 270px;
   width: 225px;
   border-radius: 10px;
   box-shadow: 2px 2px 2px gray;
+  font-size: 13px;
+  padding: 20px;
 }
 
+.announcement-text {
+  font-size: 10px;
+}
 
 .trending-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: rgb(249 248 244);
-  height: 250px;
+  height: 230px;
   width: 225px;
   border-radius: 10px;
   box-shadow: 2px 2px 2px gray;
+  padding: 20px;
+  font-size: 13px;
+}
+
+.trending {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+  margin: 5px;
+}
+
+#pfp-tegan {
+  height: 50px;
+  fill: rgb(210 164 253);
+}
+
+#pfp-morgan {
+  height: 50px;
+  fill: rgb(224 242 254);
+}
+
+#pfp-kendall {
+  height: 50px;
+  fill: rgb(253 164 175);
+}
+
+#pfp-alex {
+  height: 50px;
+  fill: rgb(163 163 163);
 }
