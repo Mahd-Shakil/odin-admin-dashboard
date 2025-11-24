@@ -8,7 +8,7 @@ p {
 }
 
 .main-container {
-  height: 700px;
+  height: 790px;
   width: 100%;
   display: grid;
   grid-template-columns: 20% 80%;
@@ -22,7 +22,7 @@ p {
 .right-side {
   grid-column-start: 2;
   display: grid;
-  grid-template-rows: 15% 90%;
+  grid-template-rows: 15% 85%;
 }
 
 .svg-icon {
@@ -140,10 +140,11 @@ button {
   grid-row-start: 2;
   display: grid;
   grid-template-columns: 80% 20%;
+  padding: 20px;
 }
 
 .content-projects {
-  align-items: center;
+  margin-left: 25px;
   justify-content: center;
   grid-column-start: 1;
   display: flex;
@@ -154,18 +155,34 @@ button {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, auto);
-  gap: 20px;
+  gap: 25px;
 }
 
 .project-card {
-  width: 320px;
-  height: 130px;
+  display: flex;
+  flex-direction: column;
+  width: 385px;
+  height: 170px;
   background-color: rgb(249 248 244);
   border-left: 5px solid rgb(254 182 0);
-  padding: 20px;
   border-radius: 5px;
-  text-align: center;
+  padding: 10px;
+  text-align: left;
   box-shadow: 2px 2px 2px gray;
+}
+
+.project-text {
+  width: 385px;
+  height: 65px;
+  font-size: 13px;
+}
+
+.projects-icons {
+  text-align: right;
+}
+
+.card-icon {
+  height: 25px;
 }
 
 .content-sidebar {
